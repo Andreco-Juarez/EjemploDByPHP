@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../dynamics/update.php" method="POST">
+        Valor Nuevo<input type="text" name="val">
+        <br>
+        columna a cambiar <select name="col">
+            <option value="valor1">Valor 1</option>
+            <option value="valor2">Valor 2</option>
+            <option value="valor3">Valor 3</option>
+            <option value="valor">Valor 4</option>
+        </select>
+        <br>
+        Buscar<input type="text" name="busq">
+        <br>
+        columna donde buscar el valor <select name="colBusq">
+            <option value="valor1">Valor 1</option>
+            <option value="valor2">Valor 2</option>
+            <option value="valor3">Valor 3</option>
+            <option value="valor">Valor 4</option>
+        </select>
+        <br><br>
+        <button type="submit">Actualizar</button>
+    </form>
+</body>
+</html>
